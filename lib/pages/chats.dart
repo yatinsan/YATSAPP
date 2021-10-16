@@ -7,7 +7,7 @@ class chates extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListView(
-      padding: EdgeInsets.only(top: 8),
+      padding: EdgeInsets.only(bottom: 5, top: 8),
       children: [
         listUser(
           name: 'yatinsan',

@@ -16,7 +16,7 @@ class listUser extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListTile(
-        contentPadding: EdgeInsets.all(10),
+        contentPadding: EdgeInsets.only(top: 4, bottom: 4, left: 15, right: 15),
         onTap: () {
           print(name);
         },
