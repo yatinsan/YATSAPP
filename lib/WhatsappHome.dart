@@ -73,7 +73,7 @@ class _WhatsappHomeState extends State<WhatsappHome>
         ),
         body: TabBarView(
           controller: _tabController,
-          children: [Container(), chates(), Status(), Container()],
+          children: [Container(), chates(), Status(), Calls()],
         ),
         floatingActionButton: Container(
           decoration:
