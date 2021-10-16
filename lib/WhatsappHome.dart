@@ -57,8 +57,10 @@ class _WhatsappHomeState extends State<WhatsappHome>
                   ),
                 ),
               ),
-              chatsCount(
-                count: '30',
+              Tab(
+                child: chatsCount(
+                  count: '30',
+                ),
               ),
               Tab(
                 text: "Status",

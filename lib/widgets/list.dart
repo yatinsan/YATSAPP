@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:whatsapp_clone/widgets/avathardp.dart';
 
 class listUser extends StatelessWidget {
   final String url;
@@ -22,13 +23,9 @@ class listUser extends StatelessWidget {
         onLongPress: () {
           print(message);
         },
-        leading: ClipRRect(
-          borderRadius: BorderRadius.circular(5),
-          child: Image.asset(
-            'assets/avathar/' + url + '.jpg',
-            width: 50,
-            height: 50,
-          ),
+        leading: Avathardp(
+          url: url,
+          shape: BorderRadius.circular(5),
         ),
         title: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
