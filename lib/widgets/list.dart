@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:whatsapp_clone/widgets/avathardp.dart';
 
-class listUser extends StatelessWidget {
+class ListUser extends StatelessWidget {
   final String url;
   final String name;
   final String count;
   final String message;
 
-  const listUser(
+  const ListUser(
       {required this.name,
       required this.url,
       required this.count,

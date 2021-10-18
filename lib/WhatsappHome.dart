@@ -28,53 +28,64 @@ class _WhatsappHomeState extends State<WhatsappHome>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: Text(
-            "YATSAPP",
-          ),
-          actions: [
-            IconButton(
-              icon: Icon(Icons.search_outlined),
-              onPressed: () {},
-              splashRadius: 20,
-            ),
-            // IconButton(
-            //   onPressed: () {},
-            //   icon: Icon(Icons.more_vert_outlined),
-            // ),
-
-            popup()
-          ],
-          bottom: TabBar(
-            controller: _tabController,
-            indicatorColor: Colors.white,
-            tabs: [
-              Container(
-                width: 100,
-                child: Tab(
-                  icon: Icon(
-                    Icons.camera_alt,
+        body: NestedScrollView(
+          headerSliverBuilder: (BuildContext context, bool innerBoxIsScrolled) {
+            return <Widget>[
+              SliverAppBar(
+                title: Text('YATSAPP'),
+                actions: [
+                  IconButton(
+                    icon: Icon(Icons.search_outlined),
+                    onPressed: () {},
+                    splashRadius: 20,
                   ),
+                  // IconButton(
+                  //   onPressed: () {},
+                  //   icon: Icon(Icons.more_vert_outlined),
+                  // ),
+
+                  popup()
+                ],
+                pinned: true,
+                floating: true,
+                forceElevated: innerBoxIsScrolled,
+                bottom: TabBar(
+                  indicatorColor: Colors.white,
+                  tabs: [
+                    Container(
+                      width: 100,
+                      child: Tab(
+                        icon: Icon(
+                          Icons.camera_alt,
+                        ),
+                      ),
+                    ),
+                    Tab(
+                      child: chatsCount(
+                        count: '30',
+                      ),
+                    ),
+                    Tab(
+                      text: "Status",
+                    ),
+                    Tab(
+                      text: "Calls",
+                    )
+                  ],
+                  controller: _tabController,
                 ),
               ),
-              Tab(
-                child: chatsCount(
-                  count: '30',
-                ),
-              ),
-              Tab(
-                text: "Status",
-              ),
-              Tab(
-                text: "Calls",
-              )
-            ],
+            ];
+          },
+          body: TabBarView(
+            controller: _tabController,
+            children: [Container(), chates(), Status(), Calls()],
           ),
         ),
-        body: TabBarView(
-          controller: _tabController,
-          children: [Container(), chates(), Status(), Calls()],
-        ),
+        // body: TabBarView(
+        //   controller: _tabController,
+        //   children: [Container(), chates(), Status(), Calls()],
+        // ),
         floatingActionButton: Container(
           decoration:
               BoxDecoration(shape: BoxShape.circle, color: Colors.amber),

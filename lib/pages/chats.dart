@@ -9,217 +9,217 @@ class chates extends StatelessWidget {
     return ListView(
       padding: EdgeInsets.only(bottom: 5, top: 8),
       children: [
-        listUser(
+        ListUser(
           name: 'yatinsan',
           url: 'avathar1',
           count: '2',
           message: 'how are you',
         ),
-        listUser(
+        ListUser(
           name: 'log',
           url: 'yatin',
           count: '4',
           message: 'hello man',
         ),
-        listUser(
+        ListUser(
           name: 'roy',
           url: 'avr2',
           count: '4',
           message: 'flutter is good',
         ),
-        listUser(
+        ListUser(
           name: 'zeny',
           url: 'avr3',
           count: '4',
           message: 'flutter is good',
         ),
-        listUser(
+        ListUser(
           name: 'rivan',
           url: 'avr4',
           count: '4',
           message: 'flutter is good',
         ),
-        listUser(
+        ListUser(
           name: 'kzoy',
           url: 'avr5',
           count: '4',
           message: 'flutter is good',
         ),
-        listUser(
+        ListUser(
           name: 'yatins',
           url: 'avathar1',
           count: '2',
           message: 'how are you',
         ),
-        listUser(
+        ListUser(
           name: 'kichu',
           url: 'yatin',
           count: '4',
           message: 'flutter is good',
         ),
-        listUser(
+        ListUser(
           name: 'roy',
           url: 'avr2',
           count: '4',
           message: 'flutter is good',
         ),
-        listUser(
+        ListUser(
           name: 'zeny',
           url: 'avr3',
           count: '4',
           message: 'flutter is good',
         ),
-        listUser(
+        ListUser(
           name: 'rivan',
           url: 'avr4',
           count: '4',
           message: 'flutter is good',
         ),
-        listUser(
+        ListUser(
           name: 'kzoy',
           url: 'avr5',
           count: '4',
           message: 'flutter is good',
         ),
-        listUser(
+        ListUser(
           name: 'yatins',
           url: 'avathar1',
           count: '2',
           message: 'how are you',
         ),
-        listUser(
+        ListUser(
           name: 'kichu',
           url: 'yatin',
           count: '4',
           message: 'flutter is good',
         ),
-        listUser(
+        ListUser(
           name: 'roy',
           url: 'avr2',
           count: '4',
           message: 'flutter is good',
         ),
-        listUser(
+        ListUser(
           name: 'zeny',
           url: 'avr3',
           count: '4',
           message: 'flutter is good',
         ),
-        listUser(
+        ListUser(
           name: 'rivan',
           url: 'avr4',
           count: '4',
           message: 'flutter is good',
         ),
-        listUser(
+        ListUser(
           name: 'kzoy',
           url: 'avr5',
           count: '4',
           message: 'flutter is good',
         ),
-        listUser(
+        ListUser(
           name: 'yatins',
           url: 'avathar1',
           count: '2',
           message: 'how are you',
         ),
-        listUser(
+        ListUser(
           name: 'kichu',
           url: 'yatin',
           count: '4',
           message: 'hello man',
         ),
-        listUser(
+        ListUser(
           name: 'roy',
           url: 'avr2',
           count: '4',
           message: 'flutter is good',
         ),
-        listUser(
+        ListUser(
           name: 'zeny',
           url: 'avr3',
           count: '4',
           message: 'flutter is good',
         ),
-        listUser(
+        ListUser(
           name: 'rivan',
           url: 'avr4',
           count: '4',
           message: 'flutter is good',
         ),
-        listUser(
+        ListUser(
           name: 'kzoy',
           url: 'avr5',
           count: '4',
           message: 'flutter is good',
         ),
-        listUser(
+        ListUser(
           name: 'yatins',
           url: 'avathar1',
           count: '2',
           message: 'how are you',
         ),
-        listUser(
+        ListUser(
           name: 'kichu',
           url: 'yatin',
           count: '4',
           message: 'flutter is good',
         ),
-        listUser(
+        ListUser(
           name: 'roy',
           url: 'avr2',
           count: '4',
           message: 'flutter is good',
         ),
-        listUser(
+        ListUser(
           name: 'zeny',
           url: 'avr3',
           count: '4',
           message: 'flutter is good',
         ),
-        listUser(
+        ListUser(
           name: 'rivan',
           url: 'avr4',
           count: '4',
           message: 'flutter is good',
         ),
-        listUser(
+        ListUser(
           name: 'kzoy',
           url: 'avr5',
           count: '4',
           message: 'flutter is good',
         ),
-        listUser(
+        ListUser(
           name: 'yatins',
           url: 'avathar1',
           count: '2',
           message: 'how are you',
         ),
-        listUser(
+        ListUser(
           name: 'kichu',
           url: 'yatin',
           count: '4',
           message: 'flutter is good',
         ),
-        listUser(
+        ListUser(
           name: 'roy',
           url: 'avr2',
           count: '4',
           message: 'flutter is good',
         ),
-        listUser(
+        ListUser(
           name: 'zeny',
           url: 'avr3',
           count: '4',
           message: 'flutter is good',
         ),
-        listUser(
+        ListUser(
           name: 'rivan',
           url: 'avr4',
           count: '4',
           message: 'flutter is good',
         ),
-        listUser(
+        ListUser(
           name: 'kzoy',
           url: 'avr5',
           count: '4',
