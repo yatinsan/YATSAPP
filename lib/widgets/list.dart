@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:whatsapp_clone/main.dart';
+import 'package:whatsapp_clone/pages/chatPage.dart';
 import 'package:whatsapp_clone/widgets/avathardp.dart';
 
 class ListUser extends StatelessWidget {
@@ -8,7 +10,7 @@ class ListUser extends StatelessWidget {
   final String message;
 
   const ListUser(
-      {required this.name,
+      {this.name = '',
       required this.url,
       required this.count,
       required this.message});
@@ -18,10 +20,12 @@ class ListUser extends StatelessWidget {
     return ListTile(
         contentPadding: EdgeInsets.only(top: 4, bottom: 4, left: 15, right: 15),
         onTap: () {
-          print(name);
-        },
-        onLongPress: () {
-          print(message);
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (context) => const Chatfeeld(usn: 'vvfbdbfb'),
+            ),
+          );
         },
         leading: Avathardp(
           url: url,

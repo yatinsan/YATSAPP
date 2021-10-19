@@ -7,6 +7,7 @@ class Calls extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListView(
+      padding: EdgeInsets.zero,
       children: [
         CallLogTile(),
         CallLogTile(),
@@ -27,6 +28,7 @@ class Calls extends StatelessWidget {
 }
 
 class CallLogTile extends StatelessWidget {
+  final String logo = 'in';
   const CallLogTile({
     Key? key,
   }) : super(key: key);
